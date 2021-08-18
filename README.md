@@ -1,2 +1,2 @@
 # web-rpg
-Jogo de rpg de mesa para web.
+Em desenvolvimento ainda: Jogo de rpg de mesa para web.
