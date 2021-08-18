@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../styles/index.css">
+  <link rel="shortcut icon" href="../images/mini-logo.png">
+  <link rel="stylesheet" type="text/css" href="../styles/changeUser.css">
+  <title>Nova Senha</title>
+</head>
+<body>
+  <header class="headerContainer">
+    <div class="menuContainer">
+      <div class="logo">
+      <a href="../index.html"><img class="menuLogo" src="../images/logo.png"></a>
+      </div>
+      <div class="menu">
+        <section class="menuHeader">
+          <div class="item"><a href="../index.html">Início</a></div>
+          <div class="item"><a href="profile.html">Perfil</a></div>
+          <div class="item"><a href="login.html">Sair</a></div>
+        </section>
+      </div>
+    </div>
+  </header>
+
+  <main class="mainContainer">
+    <form class="mainContent" onsubmit="Enviar()">
+      <div class="titleChange">
+        <h2>Nova Senha</h2>
+      </div>
+      <div class="inputChange">
+        <input class="change" type="password" placeholder="Digite a nova senha" id="password" required>
+      </div>
+      <div class="inputChange">
+        <input class="change" type="password" placeholder="Confirme a nova senha" id="confirmPassword" required>
+      </div>
+      <div class="btnContainer">
+        <input class="btn" type="submit">
+      </div>
+    </form>
+  </main>
+
+  <footer class="footerContainer">
+    <p>Todos os direitos reservados © Anderpxl 2021</p>
+  </footer>
+  <script src="../components/changePass.js"></script>
+</body>
+</html>

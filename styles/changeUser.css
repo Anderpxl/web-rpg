@@ -1,0 +1,40 @@
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+}
+
+.mainContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  height: 30vh;
+  width: 60%;
+  border-radius: 6px;
+  margin-top: 10%;
+}
+
+.titleChange{
+  margin-bottom: 3%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.inputChange{
+  margin: 5px;
+}
+
+.change{
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.btnContainer{
+  margin: 15px;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 6px;
+}

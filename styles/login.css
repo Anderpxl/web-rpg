@@ -1,0 +1,70 @@
+.loginContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.containerLogin{
+  background-color: white;
+  min-width: 60%;
+  max-width: 80%;
+  height: 40%;
+  border-radius: 10px;
+}
+
+.accTitle{
+  text-align: center;
+  border-radius: 6px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.accountContainer{
+  text-align: center;
+  margin: 10px;
+}
+
+.passwordContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+
+.acc{
+  padding: 5px;
+  border-radius: 6px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 60%;
+}
+
+.pass{
+  padding: 5px;
+  border-radius: 6px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 60%;
+}
+
+.requestPass{
+  margin-top: 3px;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.btn{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 6px;
+}

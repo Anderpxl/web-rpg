@@ -1,0 +1,105 @@
+.profileContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.profileContent{
+  height: 80vh;
+  width: 80%;
+  border-radius: 6px;
+  background-color: white;
+}
+
+/* Image + info Profile */
+
+.cardProfile{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.imageProfile{
+  width: 300px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.profile{
+  margin: 2px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 1px 1px;
+}
+
+span{
+  color:blue;
+}
+
+.infoProfile{
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* General Information about Account */
+.cardAccount{
+  width: 100%;
+}
+
+.titleAccount{
+  margin: 2px;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 4px 4px 0px 0px;
+  box-shadow: 0px 0px 1px 1px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.infoAccount{
+  margin: 2px;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 0px 1px 1px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.containerAccount{
+  display: flex;
+  margin-top: 10px;
+}
+
+.changeAccount{
+  margin-right: 10px;
+}
+
+.btnChange{
+  padding: 5px;
+  border-radius: 6px;
+}
+
+/* Características do Personagem */
+
+.titleFeature{
+  margin: 2px;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 4px 4px 0px 0px;
+  box-shadow: 0px 0px 1px 1px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.infoFeature{
+  margin: 2px;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 0px 1px 1px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}

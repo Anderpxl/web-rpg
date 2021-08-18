@@ -1,0 +1,183 @@
+.mainContainer{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1%;
+}
+
+.sideContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0.5%
+}
+
+.menuSide{
+  margin: 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.btnMenu{
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.btnMenu + .btnMenu {
+  margin-top: 10px;
+}
+
+.mainContent{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 95vh;
+  width: 95%;
+  margin-top: 1%;
+  border-radius: 6px;
+}
+
+/* Game Style */
+
+.gameContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70%;
+  /* background-color: rgb(69, 70, 70); */
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: aqua;
+}
+
+.screenGame{
+  width: 79.92%;
+}
+
+.gameContent{
+  margin-right: 10px;
+}
+
+.cardMonster{
+  box-shadow: 0px 0px 1px 1px;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cardTitle{
+  text-align: center;
+  box-shadow: 0px 0px 1px 1px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.imageMonster{
+  width: 300px;
+  border-radius: 6px;
+}
+
+.cardInfo{
+  margin-top: 10px;
+}
+
+/* Log + Chat Style */
+
+.screenLog{
+  height: 30.1%;
+  border-radius: 0px 0px 0px 6px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.logContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logContent{
+  border-radius: 6px;
+  background-color: aqua;
+  width: 50%;
+  margin-left: 10px;
+}
+
+.logTitle{
+  box-shadow: 0px 0px 1px 1px;
+  border-radius: 6px;
+  margin: 5px;
+}
+
+.serverLogTitle{
+  text-align: center;
+}
+
+.infoLog{
+  padding: 5px;
+}
+
+/* Chat Style */
+
+.chatContent{
+  border-radius: 6px;
+  width: 50%;
+  background-color: aqua;
+  margin-left: 10px;
+}
+
+/* User Style */
+
+.screenUser{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.userContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.userContent{
+  width: 100%;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+span{
+  color:blue;
+  font-weight: bold;
+}
+
+.nameTitle{
+  box-shadow: 0px 0px 1px 1px;
+  border-radius: 6px;
+  width: 100%;
+  text-align: center;
+}
+
+.imageContent{
+  display: flex;
+  justify-content: center;
+}
+
+.imageProfile{
+  width: 200px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.infos{
+  text-align: start;
+  padding: 5px;
+}

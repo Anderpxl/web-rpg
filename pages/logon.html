@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../styles/index.css">
+  <link rel="stylesheet" type="text/css" href="../styles/logon.css">
+  <link rel="shortcut icon" href="../images/mini-logo.png">
+  <title>Cadastro</title>
+</head>
+<body>
+  <header class="headerContainer">
+    <div class="menuContainer">
+      <div class="logo">
+        <a href="../index.html"><img class="menuLogo" src="../images/logo.png"></a>
+      </div>
+      <div class="menu">
+        <section class="menuHeader">
+          <div class="item"><a href="../index.html">Início</a></div>
+          <div class="item"><a href="login.html">Entrar</a></div>
+        </section>
+      </div>
+    </div>
+  </header>
+
+  <main class="logonContainer">
+    <div class="formContainer">
+      <form class="form" onsubmit="Enviar(event)">
+        <h1 class="formTitle">Cadastro</h1>
+        <input class="input" type="text" placeholder="Digite o usuário" id="user" required>
+        <input class="input" type="password" placeholder="Digite a senha" id="pass" required>
+        <input class="input" type="password" placeholder="Confirmar senha " id="confirmPass" required>
+        <input class="input" type="email" placeholder="Digite o e-mail" id="email" required>
+        <input class="input" type="date" id="date" required>
+        <input class="input" type="hidden" id="group_id" value="1">
+        <div class="sexContainer">
+          <label>Sexo: </label>
+          <input type="radio" id="sex1" name="genere" required> Masculino
+          <input type="radio" id="sex2" name="genere" required> Feminino
+        </div>
+        <input class="inputCharacter" type="text" placeholder="Nome do personagem" id="name" required>
+        <span id="contadorHistory" value="5000">5000</span>
+        <textarea name="history" class="inputText" maxlength="5000" placeholder="Escreva a história do seu personagem." id="history" required></textarea>
+
+        <div class="classContainer">
+        <label>Classes: </label>
+        <select class="selectContainer" id="class" required>
+          <option value="selecione">Selecione</option>
+          <option value="alchemist">Alquimista</option>
+          <option value="archer">Arqueiro</option>
+          <option value="barbarian">Bárbaro</option>
+          <option value="bard">Bardo</option>
+          <option value="knight">Cavaleiro</option>
+          <option value="cleric">Clérigo</option>
+          <option value="druid">Druida</option>
+          <option value="elf">Elfo</option>
+          <option value="wizard">Feiticeiro</option>
+          <option value="warrior">Guerreiro</option>
+          <option value="human">Humano</option>
+          <option value="rogue">Ladino</option>
+          <option value="mage">Mago</option>
+          <option value="half-elf">Meio-elfo</option>
+          <option value="monk">Monge</option>
+          <option value="necromancer">Necromante</option>
+          <option value="paladin">Paladino</option>
+          <option value="shaman">Xamã</option>
+        </select>
+        </div>
+        <div class="imageContainer">
+          <div class="imageContent">
+            <img class="godImage" src="../images/poseidon.jpg">
+            <div class="radioContainer">
+              <input class="radioInput" type="radio" name="god" value="Poseidon" id="god1" required> Poseidon
+            </div>
+          </div>
+          <div class="imageContent">
+            <img class="godImage" src="../images/zeus.jpg">
+            <div class="radioContainer">
+              <input class="radioInput" type="radio" name="god" value="Zeus" id="god2" required> Zeus
+            </div>
+          </div>
+          <div class="imageContent">
+            <img class="godImage" src="../images/hades.jpg">
+            <div class="radioContainer">
+              <input class="radioInput" type="radio" name="god" value="Hades" id="god3" required> Hades
+            </div>
+          </div>
+        </div>
+        <div class="btnContainer">
+          <input class="btn" type="submit" value="Cadastrar" id="enviar">
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footerContainer">
+    <p>Todos os direitos reservados © Anderpxl 2021</p>
+  </footer>
+  <script src="../components/createUser.js"></script>
+</body>
+</html>

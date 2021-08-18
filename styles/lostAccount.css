@@ -1,0 +1,41 @@
+.lostContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.lostContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 5%;
+  height: 50vh;
+  width: 60%;
+}
+
+.titleContent{
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 20%;
+}
+
+.requestContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.requestEmail{
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.btn{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 6px;
+}
